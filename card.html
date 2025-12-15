@@ -3,26 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Animal Trading Cards</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div>
-		<!-- your favorite animal's name goes here -->
-		<h3>Animal's name</h3>
-		<!-- your favorite animal's image goes here -->
-		<img src="placeholder.png" alt="name-of-your-animal">
-		<div>
-			<!-- your favorite animal's interesting fact goes here -->
-			<p>Write an interesting fact about your favorite animal...</p>
-			<ul>
-				<!-- your favorite animal's list items go here -->
-				<li><span>Label</span>: Item #1</li>
-				<li><span>Label</span>: Item #2</li>
-				<li><span>Label</span>: Item #3</li>
-				<li><span>Label</span>: Item #4</li>
-			</ul>
-			<!-- your favorite animal's description goes here -->
-			<p>Write a brief description about your favorite animal...</p>
+	<article class="card">
+		<h3 class="card-title">Tabby Cat</h3>
+		<div class="card-image-wrapper">
+			<img class="card-image" src="design-prototype.png" alt="Tabby orange cat sitting alert" width="300">
 		</div>
-	</div>
+		<div class="card-info">
+			<p class="fact">Tabby cats often have a distinctive M-shaped marking on their foreheads.</p>
+			<ul class="attributes-list">
+				<li><span class="attribute-label">Scientific name</span>: Felis catus</li>
+				<li><span class="attribute-label">Coat pattern</span>: Classic orange tabby</li>
+				<li><span class="attribute-label">Average weight</span>: 3.5–5 kg</li>
+				<li><span class="attribute-label">Average lifespan</span>: 12–15 years</li>
+			</ul>
+			<p class="description">Friendly and curious, orange tabby cats are known for their sociable temperaments. They are affectionate companions who thrive in calm indoor spaces and enjoy interactive play that taps into their natural hunting instincts.</p>
+		</div>
+	</article>
 </body>
 </html>

@@ -1,1 +1,63 @@
-/* add your CSS here */
+body {
+	margin: 24px;
+	font-family: "Georgia", "Times New Roman", serif;
+	background-color: #f6f7f8;
+}
+
+.card {
+	width: 340px;
+	border: 1px solid #cfcfcf;
+	padding: 14px;
+	background-color: #fff;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+	margin: 0;
+	padding: 8px 10px;
+	border: 1px solid #cfcfcf;
+	font-size: 24px;
+}
+
+.card-image-wrapper {
+	margin-top: 12px;
+	padding: 6px;
+	border: 1px solid #cfcfcf;
+	display: flex;
+	justify-content: center;
+}
+
+.card-image {
+	display: block;
+	width: 300px;
+	height: auto;
+}
+
+.card-info {
+	margin-top: 12px;
+	padding: 12px;
+	border: 1px solid #cfcfcf;
+}
+
+.fact {
+	margin: 0 0 10px 0;
+	font-style: italic;
+}
+
+.attributes-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.attributes-list li {
+	margin-bottom: 6px;
+}
+
+.attribute-label {
+	font-weight: 700;
+}
+
+.description {
+	margin: 0;
+}
